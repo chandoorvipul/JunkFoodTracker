@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1254A72050E9200093566C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1254A62050E9200093566C /* AppDelegate.swift */; };
+		3F1254A92050E9200093566C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1254A82050E9200093566C /* ViewController.swift */; };
+		3F1254AC2050E9200093566C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1254AA2050E9200093566C /* Main.storyboard */; };
+		3F1254AE2050E9200093566C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1254AD2050E9200093566C /* Assets.xcassets */; };
+		3F1254B12050E9200093566C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1254AF2050E9200093566C /* LaunchScreen.storyboard */; };
+		3F1254BC2050E9200093566C /* Chandoor_JunkFoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1254BB2050E9200093566C /* Chandoor_JunkFoodTrackerTests.swift */; };
+		3F1254C72050E9200093566C /* Chandoor_JunkFoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1254C62050E9200093566C /* Chandoor_JunkFoodTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1254B82050E9200093566C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F12549B2050E9200093566C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1254A22050E9200093566C;
+			remoteInfo = Chandoor_JunkFoodTracker;
+		};
+		3F1254C32050E9200093566C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F12549B2050E9200093566C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1254A22050E9200093566C;
+			remoteInfo = Chandoor_JunkFoodTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1254A32050E9200093566C /* Chandoor_JunkFoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chandoor_JunkFoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1254A62050E9200093566C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1254A82050E9200093566C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F1254AB2050E9200093566C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1254AD2050E9200093566C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1254B02050E9200093566C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1254B22050E9200093566C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1254B72050E9200093566C /* Chandoor_JunkFoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chandoor_JunkFoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1254BB2050E9200093566C /* Chandoor_JunkFoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chandoor_JunkFoodTrackerTests.swift; sourceTree = "<group>"; };
+		3F1254BD2050E9200093566C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1254C22050E9200093566C /* Chandoor_JunkFoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chandoor_JunkFoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1254C62050E9200093566C /* Chandoor_JunkFoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chandoor_JunkFoodTrackerUITests.swift; sourceTree = "<group>"; };
+		3F1254C82050E9200093566C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1254A02050E9200093566C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1254B42050E9200093566C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1254BF2050E9200093566C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F12549A2050E9200093566C = {
+			isa = PBXGroup;
+			children = (
+				3F1254A52050E9200093566C /* Chandoor_JunkFoodTracker */,
+				3F1254BA2050E9200093566C /* Chandoor_JunkFoodTrackerTests */,
+				3F1254C52050E9200093566C /* Chandoor_JunkFoodTrackerUITests */,
+				3F1254A42050E9200093566C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1254A42050E9200093566C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1254A32050E9200093566C /* Chandoor_JunkFoodTracker.app */,
+				3F1254B72050E9200093566C /* Chandoor_JunkFoodTrackerTests.xctest */,
+				3F1254C22050E9200093566C /* Chandoor_JunkFoodTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1254A52050E9200093566C /* Chandoor_JunkFoodTracker */ = {
+			isa = PBXGroup;
+			children = (
+				3F1254A62050E9200093566C /* AppDelegate.swift */,
+				3F1254A82050E9200093566C /* ViewController.swift */,
+				3F1254AA2050E9200093566C /* Main.storyboard */,
+				3F1254AD2050E9200093566C /* Assets.xcassets */,
+				3F1254AF2050E9200093566C /* LaunchScreen.storyboard */,
+				3F1254B22050E9200093566C /* Info.plist */,
+			);
+			path = Chandoor_JunkFoodTracker;
+			sourceTree = "<group>";
+		};
+		3F1254BA2050E9200093566C /* Chandoor_JunkFoodTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1254BB2050E9200093566C /* Chandoor_JunkFoodTrackerTests.swift */,
+				3F1254BD2050E9200093566C /* Info.plist */,
+			);
+			path = Chandoor_JunkFoodTrackerTests;
+			sourceTree = "<group>";
+		};
+		3F1254C52050E9200093566C /* Chandoor_JunkFoodTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1254C62050E9200093566C /* Chandoor_JunkFoodTrackerUITests.swift */,
+				3F1254C82050E9200093566C /* Info.plist */,
+			);
+			path = Chandoor_JunkFoodTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1254A22050E9200093566C /* Chandoor_JunkFoodTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1254CB2050E9200093566C /* Build configuration list for PBXNativeTarget "Chandoor_JunkFoodTracker" */;
+			buildPhases = (
+				3F12549F2050E9200093566C /* Sources */,
+				3F1254A02050E9200093566C /* Frameworks */,
+				3F1254A12050E9200093566C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chandoor_JunkFoodTracker;
+			productName = Chandoor_JunkFoodTracker;
+			productReference = 3F1254A32050E9200093566C /* Chandoor_JunkFoodTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1254B62050E9200093566C /* Chandoor_JunkFoodTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1254CE2050E9200093566C /* Build configuration list for PBXNativeTarget "Chandoor_JunkFoodTrackerTests" */;
+			buildPhases = (
+				3F1254B32050E9200093566C /* Sources */,
+				3F1254B42050E9200093566C /* Frameworks */,
+				3F1254B52050E9200093566C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1254B92050E9200093566C /* PBXTargetDependency */,
+			);
+			name = Chandoor_JunkFoodTrackerTests;
+			productName = Chandoor_JunkFoodTrackerTests;
+			productReference = 3F1254B72050E9200093566C /* Chandoor_JunkFoodTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1254C12050E9200093566C /* Chandoor_JunkFoodTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1254D12050E9200093566C /* Build configuration list for PBXNativeTarget "Chandoor_JunkFoodTrackerUITests" */;
+			buildPhases = (
+				3F1254BE2050E9200093566C /* Sources */,
+				3F1254BF2050E9200093566C /* Frameworks */,
+				3F1254C02050E9200093566C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1254C42050E9200093566C /* PBXTargetDependency */,
+			);
+			name = Chandoor_JunkFoodTrackerUITests;
+			productName = Chandoor_JunkFoodTrackerUITests;
+			productReference = 3F1254C22050E9200093566C /* Chandoor_JunkFoodTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F12549B2050E9200093566C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F1254A22050E9200093566C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3F1254B62050E9200093566C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1254A22050E9200093566C;
+					};
+					3F1254C12050E9200093566C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1254A22050E9200093566C;
+					};
+				};
+			};
+			buildConfigurationList = 3F12549E2050E9200093566C /* Build configuration list for PBXProject "Chandoor_JunkFoodTracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F12549A2050E9200093566C;
+			productRefGroup = 3F1254A42050E9200093566C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1254A22050E9200093566C /* Chandoor_JunkFoodTracker */,
+				3F1254B62050E9200093566C /* Chandoor_JunkFoodTrackerTests */,
+				3F1254C12050E9200093566C /* Chandoor_JunkFoodTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1254A12050E9200093566C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1254B12050E9200093566C /* LaunchScreen.storyboard in Resources */,
+				3F1254AE2050E9200093566C /* Assets.xcassets in Resources */,
+				3F1254AC2050E9200093566C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1254B52050E9200093566C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1254C02050E9200093566C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F12549F2050E9200093566C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1254A92050E9200093566C /* ViewController.swift in Sources */,
+				3F1254A72050E9200093566C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1254B32050E9200093566C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1254BC2050E9200093566C /* Chandoor_JunkFoodTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1254BE2050E9200093566C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1254C72050E9200093566C /* Chandoor_JunkFoodTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1254B92050E9200093566C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1254A22050E9200093566C /* Chandoor_JunkFoodTracker */;
+			targetProxy = 3F1254B82050E9200093566C /* PBXContainerItemProxy */;
+		};
+		3F1254C42050E9200093566C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1254A22050E9200093566C /* Chandoor_JunkFoodTracker */;
+			targetProxy = 3F1254C32050E9200093566C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F1254AA2050E9200093566C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1254AB2050E9200093566C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1254AF2050E9200093566C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1254B02050E9200093566C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1254C92050E9200093566C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F1254CA2050E9200093566C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1254CC2050E9200093566C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chandoor_JunkFoodTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chandoor-JunkFoodTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1254CD2050E9200093566C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chandoor_JunkFoodTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chandoor-JunkFoodTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F1254CF2050E9200093566C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chandoor_JunkFoodTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chandoor-JunkFoodTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chandoor_JunkFoodTracker.app/Chandoor_JunkFoodTracker";
+			};
+			name = Debug;
+		};
+		3F1254D02050E9200093566C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chandoor_JunkFoodTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chandoor-JunkFoodTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chandoor_JunkFoodTracker.app/Chandoor_JunkFoodTracker";
+			};
+			name = Release;
+		};
+		3F1254D22050E9200093566C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chandoor_JunkFoodTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chandoor-JunkFoodTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chandoor_JunkFoodTracker;
+			};
+			name = Debug;
+		};
+		3F1254D32050E9200093566C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chandoor_JunkFoodTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chandoor-JunkFoodTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chandoor_JunkFoodTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F12549E2050E9200093566C /* Build configuration list for PBXProject "Chandoor_JunkFoodTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1254C92050E9200093566C /* Debug */,
+				3F1254CA2050E9200093566C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1254CB2050E9200093566C /* Build configuration list for PBXNativeTarget "Chandoor_JunkFoodTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1254CC2050E9200093566C /* Debug */,
+				3F1254CD2050E9200093566C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1254CE2050E9200093566C /* Build configuration list for PBXNativeTarget "Chandoor_JunkFoodTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1254CF2050E9200093566C /* Debug */,
+				3F1254D02050E9200093566C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1254D12050E9200093566C /* Build configuration list for PBXNativeTarget "Chandoor_JunkFoodTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1254D22050E9200093566C /* Debug */,
+				3F1254D32050E9200093566C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F12549B2050E9200093566C /* Project object */;
+}
