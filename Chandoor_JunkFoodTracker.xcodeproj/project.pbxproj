@@ -14,6 +14,9 @@
 		3F1254B12050E9200093566C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1254AF2050E9200093566C /* LaunchScreen.storyboard */; };
 		3F1254BC2050E9200093566C /* Chandoor_JunkFoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1254BB2050E9200093566C /* Chandoor_JunkFoodTrackerTests.swift */; };
 		3F1254C72050E9200093566C /* Chandoor_JunkFoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1254C62050E9200093566C /* Chandoor_JunkFoodTrackerUITests.swift */; };
+		3F1254D52050ECAA0093566C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1254D42050ECAA0093566C /* Model.swift */; };
+		3F1254DB2050F0FB0093566C /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1254DA2050F0FB0093566C /* ReportViewController.swift */; };
+		3F1254DD2050F2990093566C /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1254DC2050F2990093566C /* RecordTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3F1254C22050E9200093566C /* Chandoor_JunkFoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chandoor_JunkFoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1254C62050E9200093566C /* Chandoor_JunkFoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chandoor_JunkFoodTrackerUITests.swift; sourceTree = "<group>"; };
 		3F1254C82050E9200093566C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1254D42050ECAA0093566C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3F1254DA2050F0FB0093566C /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		3F1254DC2050F2990093566C /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				3F1254A62050E9200093566C /* AppDelegate.swift */,
 				3F1254A82050E9200093566C /* ViewController.swift */,
 				3F1254AA2050E9200093566C /* Main.storyboard */,
+				3F1254D42050ECAA0093566C /* Model.swift */,
+				3F1254DA2050F0FB0093566C /* ReportViewController.swift */,
+				3F1254DC2050F2990093566C /* RecordTableViewController.swift */,
 				3F1254AD2050E9200093566C /* Assets.xcassets */,
 				3F1254AF2050E9200093566C /* LaunchScreen.storyboard */,
 				3F1254B22050E9200093566C /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1254DB2050F0FB0093566C /* ReportViewController.swift in Sources */,
+				3F1254D52050ECAA0093566C /* Model.swift in Sources */,
 				3F1254A92050E9200093566C /* ViewController.swift in Sources */,
 				3F1254A72050E9200093566C /* AppDelegate.swift in Sources */,
+				3F1254DD2050F2990093566C /* RecordTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
