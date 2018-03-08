@@ -89,7 +89,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="ufm-QG-il6"/>
+                                    <segue destination="zS6-Yk-cKC" kind="unwind" unwindAction="unwindFromTableWithSegue:" id="tC0-gc-E5O"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -103,6 +103,7 @@
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YmR-Hk-2vb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="zS6-Yk-cKC" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1182" y="33"/>
         </scene>
@@ -123,7 +124,4 @@
             <point key="canvasLocation" x="-734" y="33"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="ufm-QG-il6"/>
-    </inferredMetricsTieBreakers>
 </document>

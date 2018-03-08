@@ -34,7 +34,7 @@ class RecordTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        print(AppDelegate.model.Foods.count)
+     //   print(AppDelegate.model.Foods.count)
         return AppDelegate.model.Foods.count
     }
     
@@ -44,7 +44,7 @@ class RecordTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = AppDelegate.model.Foods[indexPath.row].Name
         cell.detailTextLabel?.text = "\(AppDelegate.model.Foods[indexPath.row].Calories)"
-        print("\(AppDelegate.model.Foods[indexPath.row].Calories)")
+       // print("\(AppDelegate.model.Foods[indexPath.row].Calories)")
         
         return cell
     }
@@ -89,10 +89,10 @@ class RecordTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-      let vc = segue.destination as! ReportViewController
+        let vc = segue.destination as! ReportViewController
         //print(tableView.indexPathForSelectedRow?.row)
         AppDelegate.model.increaseTally(forItem: (tableView.indexPathForSelectedRow?.row)!)
-        AppDelegate.model.report(forItem: (tableView.indexPathForSelectedRow?.row)!)
+        //AppDelegate.model.report(forItem: (tableView.indexPathForSelectedRow?.row)!)
     }
  
 
