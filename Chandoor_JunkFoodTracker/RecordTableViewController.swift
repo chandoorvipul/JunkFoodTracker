@@ -34,19 +34,20 @@ class RecordTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+        print(AppDelegate.model.Foods.count)
         return AppDelegate.model.Foods.count
     }
     
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = AppDelegate.model.Foods[indexPath.row].Name
+        cell.detailTextLabel?.text = "\(AppDelegate.model.Foods[indexPath.row].Calories)"
+        print("\(AppDelegate.model.Foods[indexPath.row].Calories)")
+        
         return cell
     }
-    
 
     /*
     // Override to support conditional editing of the table view.
@@ -83,14 +84,16 @@ class RecordTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+      let vc = segue.destination as! ReportViewController
+        //print(tableView.indexPathForSelectedRow?.row)
+        AppDelegate.model.increaseTally(forItem: (tableView.indexPathForSelectedRow?.row)!)
+        AppDelegate.model.report(forItem: (tableView.indexPathForSelectedRow?.row)!)
     }
-    */
+ 
 
 }

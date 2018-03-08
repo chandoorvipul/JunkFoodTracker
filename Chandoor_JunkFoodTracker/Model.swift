@@ -29,6 +29,7 @@ class FoodRecorder {
         let Popcorn = FoodData(Name: "Popcorn", Calories: 106, Tally: 0)
         let Coke = FoodData(Name: "Coke", Calories: 140, Tally: 0)
         let PotatoChips = FoodData(Name: "PotatoChips", Calories: 152, Tally: 0)
+        Foods.append(contentsOf: [Popcorn,Coke,PotatoChips])
         
     }
     
@@ -53,12 +54,14 @@ class FoodRecorder {
         return result
     }
     
-    func combinedReport() -> String{
+    func combinedReport() -> String {
         var itemResults = ""
-        for v in 0..<3{
+        for v in 0 ..< 3 {
+            print(v)
             itemResults = itemResults + self.report(forItem: v) + "\n"
         }
         itemResults = itemResults + "Total calories consumed \(self.totalCalories())"
+        print(itemResults)
         return itemResults
     }
     

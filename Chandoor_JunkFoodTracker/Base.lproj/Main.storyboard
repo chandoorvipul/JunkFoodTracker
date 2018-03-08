@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Report View Controller-->
+        <!--JF Tracker-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ReportViewController" customModule="Chandoor_JunkFoodTracker" customModuleProvider="target" sceneMemberID="viewController">
@@ -45,7 +45,9 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="bKW-Wi-ADM"/>
+                    <navigationItem key="navigationItem" title="JF Tracker" id="bKW-Wi-ADM">
+                        <barButtonItem key="backBarButtonItem" title="JF Tracker" id="abh-Jh-Z8o"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="ReportLBL" destination="cpK-Jx-mg5" id="dhN-Yb-AtB"/>
                     </connections>
@@ -54,10 +56,10 @@
             </objects>
             <point key="canvasLocation" x="166" y="33"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Foods-->
         <scene sceneID="vlU-5S-HHE">
             <objects>
-                <tableViewController id="mQC-L2-PF2" sceneMemberID="viewController">
+                <tableViewController id="mQC-L2-PF2" customClass="RecordTableViewController" customModule="Chandoor_JunkFoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="12V-hI-VpN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,6 +88,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ufm-QG-il6"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -93,7 +98,9 @@
                             <outlet property="delegate" destination="mQC-L2-PF2" id="0Rr-iQ-mZx"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="TZk-H9-Pav"/>
+                    <navigationItem key="navigationItem" title="Foods" id="TZk-H9-Pav">
+                        <barButtonItem key="backBarButtonItem" title="JF Tracker" id="RFt-eg-KhU"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YmR-Hk-2vb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,4 +123,7 @@
             <point key="canvasLocation" x="-734" y="33"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ufm-QG-il6"/>
+    </inferredMetricsTieBreakers>
 </document>

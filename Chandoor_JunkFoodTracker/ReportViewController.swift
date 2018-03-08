@@ -22,6 +22,7 @@ class ReportViewController: UIViewController {
     }
     
     @IBOutlet weak var ReportLBL: UITextView!
+    
     @IBAction func ResetBTN(_ sender: Any) {
         AppDelegate.model.reset()
         ReportLBL.text = AppDelegate.model.combinedReport()
